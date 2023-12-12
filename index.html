@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./sass/app.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="movieApp">
+        <header class="site_header">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="left">
+                        <a href="./index.html" class="site_logo">
+                            <img src="./images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="search_bar">
+                        <form action="">
+                            <input type="text" placeholder="What do you want to watch?">
+                            <button type="button" class="search_btn">
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 14.2101L10 10.2101M11.3333 6.87675C11.3333 9.45408 9.244 11.5434 6.66667 11.5434C4.08934 11.5434 2 9.45408 2 6.87675C2 4.29942 4.08934 2.21008 6.66667 2.21008C9.244 2.21008 11.3333 4.29942 11.3333 6.87675Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="right">
+                        <div class="action_list">
+                            <a href="" class="sign_in">Sign in</a>
+                            <div class="toggle">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="slider">
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="movies">
+                <div class="container">
+                    <div class="sec_title">
+                        <h1>Top Movies</h1>
+                    </div>
+                    <ul class="movie_list">
+                        <!-- <li class="movie_item">
+                            <div class="image">
+                                <img src="./images/Poster.png" alt="">
+                                <div class="favorite_btn">
+                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M1.17157 1.33966C2.73367 -0.181334 5.26633 -0.181334 6.82842 1.33966L7.99999 2.4804L9.17157 1.33966C10.7337 -0.181334 13.2663 -0.181334 14.8284 1.33966C16.3905 2.86064 16.3905 5.32666 14.8284 6.84764L7.99999 13.4964L1.17157 6.84764C-0.390524 5.32666 -0.390524 2.86064 1.17157 1.33966Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <span>USA, 2016 - Current</span>
+                                <h3>Stranger Things</h3>
+                                <div class="info">
+                                    <div class="imdb">
+                                        <img src="./images/imdb.png" width="35" alt="">
+                                        <span>86.0 / 100</span>
+                                    </div>
+                                    <div class="liked">
+                                        <img src="./images/tomato.png" width="16" alt="">
+                                        <span>97%</span>
+                                    </div>
+                                </div>
+                                <span class="category">Action, Adventure, Horror</span>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+       
+        </main>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
